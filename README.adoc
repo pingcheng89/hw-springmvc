@@ -1,5 +1,8 @@
 = Spring MVC 樂透登入功能
 
+預設帳號：sa
+預設密碼：1
+
 1. 初始網頁是登入畫面： http://localhost:8080/lotterygame/login
 2. 需先註冊帳號，若註冊帳號重複會提示，註冊成功後可登入。
 3. 登入部分不是使用filter，filter的還沒有做出來。
