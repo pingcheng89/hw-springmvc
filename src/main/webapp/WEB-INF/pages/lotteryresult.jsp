@@ -49,6 +49,7 @@
                 </tr>
             </tbody>
         </table>
+        <a href="logout">登出</a>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
