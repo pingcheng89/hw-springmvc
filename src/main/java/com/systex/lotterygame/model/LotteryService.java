@@ -5,11 +5,11 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 
 public class LotteryService {
 
+	//處理lottery跑出號碼的service
 	private int group;
 	private String exclude;
 	ArrayList<LinkedList<String>> result;
