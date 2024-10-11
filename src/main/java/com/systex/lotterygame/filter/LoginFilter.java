@@ -28,6 +28,9 @@ public class LoginFilter extends OncePerRequestFilter {
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		
+		request.setCharacterEncoding("UTF-8");
+        response.setCharacterEncoding("UTF-8");
+		
 		String uri = request.getRequestURI();
         HttpSession session = request.getSession(false);
         boolean loggedIn = (session != null && session.getAttribute("loggedInUser") != null);
